@@ -1,0 +1,12 @@
+{
+  "name": "@bmi-calculator/domain",
+  "version": "1.0.0",
+  "description": "Domain package for bmi calculator",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "hjcasayas",
+  "license": "ISC"
+}
