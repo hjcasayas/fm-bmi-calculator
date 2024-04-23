@@ -1,6 +1,5 @@
 const AppPage = () => {
   return (<div>
-    <p>app-page works!</p>
   </div>
   )
 };
