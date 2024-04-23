@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Web app using NextJS for BMI calculator",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,5 +10,6 @@
     "lint": "next lint"
   },
   "author": "hjcasayas",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }
