@@ -5,6 +5,10 @@ export class ImperialBMI implements IBMI {
     const weightLbs = weight;
     const heightIn = height;
 
+    if (weightLbs <= 0 || heightIn <= 0) {
+      return 0;
+    }
+
     const bmi = weightLbs / (heightIn ** 2) * 703;
     return Math.floor(bmi * 10) / 10;
   };
