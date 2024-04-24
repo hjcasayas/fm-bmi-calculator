@@ -11,5 +11,7 @@
   },
   "author": "hjcasayas",
   "license": "ISC",
-  "devDependencies": {}
+  "dependencies": {
+    "@bmi-calculator/domain": "file:../../libs/domain"
+  }
 }

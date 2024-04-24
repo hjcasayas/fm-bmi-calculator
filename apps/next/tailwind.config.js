@@ -10,6 +10,7 @@ module.exports = {
       'gunmetal': '#253347',
       'dark-electric-blue': '#5E6E85',
       'border': '#D8E2E7',
+      'white': "#ffffff"
     },
     extend: {
       fontFamily: {
@@ -19,7 +20,7 @@ module.exports = {
   },
   plugins: [require('daisyui')],
   daisyui: {
-    theme: []
+    theme: ['light', 'dark']
   }
 }
 

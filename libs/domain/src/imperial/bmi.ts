@@ -1,4 +1,4 @@
-import { IBMI, IBMICalculateParams } from "../interfaces/bmi.interface";
+import { IBMI, IBMICalculateParams, IBMIIdealWeightParams, IBMIIdealWeightResult } from "../interfaces/bmi.interface";
 
 export class ImperialBMI implements IBMI {
   calculate = ({ weight, height }: IBMICalculateParams): number => {
@@ -11,5 +11,14 @@ export class ImperialBMI implements IBMI {
 
     const bmi = weightLbs / (heightIn ** 2) * 703;
     return Math.floor(bmi * 10) / 10;
+  };
+
+  idealWeight = ({ height }: IBMIIdealWeightParams): IBMIIdealWeightResult => {
+    const heightIn = height;
+
+    return {
+      idealWeightFrom: 0,
+      idealWeightTo: 0,
+    }
   };
 }
